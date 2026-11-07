@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ランダムウォーク シミュレーション</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>ランダムウォーク シミュレーション</h1>
+  
+  <div class="controls">
+    <button id="runBtn">シミュレーション実行</button>
+    <span>Head (上): <strong id="headCount">0</strong></span>
+    <span>Tail (下): <strong id="tailCount">0</strong></span>
+  </div>
+
+  <div id="message" class="message"></div>
+  
+  <!-- グリッド描画用のキャンバス -->
+  <canvas id="simCanvas" width="800" height="450"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
